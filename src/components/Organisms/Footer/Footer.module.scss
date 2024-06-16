@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    background: var(--text-color-day, #1f1e1c);
+    &__container {
+        padding: 20.065px 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10.033px;
+        align-items: center;
+    }
+    &__copyright {
+        color: var(--bg-day, #fff);
+        text-align: center;
+        font-family: "TT Firs Neue";
+        font-size: 16.052px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 20.868px */
+        letter-spacing: -0.642px;
+    }
+    &__description {
+        color: var(--dark-gray-day, #9f9f9e);
+        text-align: center;
+        font-family: "TT Firs Neue";
+        font-size: 12.039px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 15.651px */
+        letter-spacing: -0.482px;
+    }
+}

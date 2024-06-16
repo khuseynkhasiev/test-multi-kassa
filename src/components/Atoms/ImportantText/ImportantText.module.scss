@@ -1,0 +1,19 @@
+.importantText {
+    width: 100%;
+    background: var(--color-day, #ede8da);
+    &__container {
+        max-width: 554px;
+        width: 100%;
+        display: flex;
+        padding: 20px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        margin: auto;
+    }
+    &__svg {
+        width: 32px;
+        height: 29.333px;
+    }
+}

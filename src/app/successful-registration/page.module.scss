@@ -1,0 +1,59 @@
+.successfulRegistration {
+    flex-grow: 1;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+        row-gap: 60.196px;
+    }
+    &__thanksInfo {
+        display: flex;
+        max-width: 571.866px;
+        width: 100%;
+        padding: 20.065px 30.098px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20.065px;
+        margin: 0 auto;
+
+        border-radius: 30.098px;
+        background: var(--gray-day, #f5f5f5);
+    }
+    &__infoText {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8.026px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__actions {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8.026px;
+    }
+    &__title {
+        color: var(--text-color-day, #1f1e1c);
+        text-align: center;
+        font-family: "TT Firs Neue";
+        font-size: 22.072px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%; /* 24.279px */
+        letter-spacing: -0.883px;
+    }
+    &__text {
+        color: var(--text-color-day, #1f1e1c);
+        text-align: center;
+        font-family: "TT Firs Neue";
+        font-size: 16.052px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 20.868px */
+        letter-spacing: -0.642px;
+    }
+}

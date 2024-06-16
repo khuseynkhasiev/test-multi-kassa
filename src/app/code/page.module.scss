@@ -1,0 +1,61 @@
+.code {
+    flex-grow: 1;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    &__container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 60.196px;
+    }
+    &__textWrap {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    &__title {
+        color: var(--text-color-day, #1f1e1c);
+        text-align: center;
+        font-family: "TT Firs Neue";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%; /* 24.2px */
+        letter-spacing: -0.88px;
+    }
+    &__code {
+        color: var(--accent-color-day, #d7b27b);
+        text-align: center;
+        font-family: "TT Firs Neue";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%; /* 24.2px */
+        letter-spacing: -0.88px;
+    }
+    &__form {
+        display: flex;
+        max-width: 570px;
+        width: 100%;
+        padding: 20px 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        border-radius: 30px;
+        background: var(--gray-day, #f5f5f5);
+        margin: 0 auto;
+    }
+    &__inputs {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    &__actionWrap {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+}

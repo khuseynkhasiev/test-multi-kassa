@@ -1,0 +1,30 @@
+.buttonAction {
+    display: flex;
+    width: 100%;
+    height: 63.206px;
+    padding: 14.046px 30.098px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.033px;
+    border-radius: 100.327px;
+    background: var(--accent-color-day, #d7b27b);
+    border: none;
+
+    color: var(--text-color-day, #1f1e1c);
+    font-family: "TT Firs Neue";
+    font-size: 14.046px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 16.855px */
+    letter-spacing: -0.281px;
+    cursor: pointer;
+    &_small {
+        max-width: 356px;
+    }
+    &_medium {
+        max-width: 511.669px;
+    }
+    &_big {
+        max-width: 530px;
+    }
+}

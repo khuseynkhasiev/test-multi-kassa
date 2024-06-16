@@ -1,0 +1,44 @@
+.verificationInput {
+    border: none;
+    display: flex;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    border-radius: 10px;
+    background: var(--bg-day, #fff);
+
+    color: var(--accent-color-day, #d7b27b);
+    text-align: center;
+
+    /* h4 */
+    font-family: "TT Firs Neue";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 26.4px */
+    letter-spacing: -0.44px;
+    &::placeholder {
+        color: var(--accent-color-day, #d7b27b);
+        text-align: center;
+
+        /* h4 */
+        font-family: "TT Firs Neue";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 26.4px */
+        letter-spacing: -0.44px;
+    }
+    &_small {
+        width: 51px;
+        height: 48px;
+    }
+    &_big {
+        width: 80px;
+        height: 80px;
+    }
+}
