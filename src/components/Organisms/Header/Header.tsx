@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ title, name, ImageHeader }) => {
                             <span
                                 className={`${styles.header__title} ${styles.header__title_orange}`}
                             >
-                                {name},{" "}
+                                {name},<br />
                             </span>
                         )}
 
@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ title, name, ImageHeader }) => {
                 </div>
                 <div className={styles.header__image}>
                     <ImageHeader />
-                </div>{" "}
+                </div>
             </div>
         </header>
     );

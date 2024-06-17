@@ -14,12 +14,12 @@
     &__title {
         color: var(--text-color-day, #1f1e1c);
         text-align: center;
-        font-family: "TT Firs Neue";
         font-size: 22px;
         font-style: normal;
         font-weight: 500;
         line-height: 110%; /* 24.2px */
         letter-spacing: -0.88px;
+        padding: 0 20px;
         &_orange {
             color: var(--accent-color-day, #d7b27b);
         }

@@ -3,3 +3,22 @@
     flex-direction: column;
     min-height: 100dvh;
 }
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../vendor/fonts/TTFirsNeue-Medium.woff2") format("woff2");
+
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../vendor//fonts/TTFirsNeue-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "TT Firs Neue", sans-serif;
+}

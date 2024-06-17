@@ -1,0 +1,14 @@
+.LineArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    // flex-wrap: wrap;
+    &__line {
+        max-width: 488px;
+        height: 1px;
+        width: 100%;
+        background: #d7b27b;
+    }
+}

@@ -1,0 +1,13 @@
+.TargetTranslation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    &__btn {
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+    }
+}

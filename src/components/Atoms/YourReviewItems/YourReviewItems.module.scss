@@ -1,0 +1,16 @@
+.YourReview {
+    width: 100%;
+    &__link {
+        display: flex;
+        height: 73px;
+        padding: 10px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex: 1 0 0;
+        border-radius: 20px;
+        background: var(--gray-day, #f5f5f5);
+        cursor: pointer;
+    }
+}

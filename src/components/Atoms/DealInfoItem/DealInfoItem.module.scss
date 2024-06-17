@@ -1,0 +1,20 @@
+.DealInfoItem {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 20px;
+    &__text {
+        color: var(--text-color-day, #1f1e1c);
+        /* body text */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 19.2px */
+        letter-spacing: -0.32px;
+    }
+}

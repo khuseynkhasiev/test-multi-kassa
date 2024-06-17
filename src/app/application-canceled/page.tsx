@@ -1,10 +1,7 @@
 import styles from "./page.module.scss";
 import ApplicationCanceledIcon from "@/src/images/verification-code-icon.svg";
 import Header from "@/src/components/Organisms/Header/Header";
-import VerificationInput from "@/src/components/Atoms/VerificationInput/VerificationInput";
-import ButtonAction from "@/src/components/Atoms/ButtonAction/ButtonAction";
 import ImportantText from "@/src/components/Atoms/ImportantText/ImportantText";
-import LinkText from "@/src/components/Atoms/LinkText/LinkText";
 
 const ApplicationCanceled = () => {
     return (

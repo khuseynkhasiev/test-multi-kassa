@@ -1,13 +1,13 @@
 import NavItemLink from "../../Atoms/NavItemLink/NavItemLink";
 import styles from "./NavItemsLink.module.scss";
 
-import EmailIcon from "@/src/images/mail.svg";
-import TgIcon from "@/src/images/tg.svg";
-import InstaIcon from "@/src/images/insta.svg";
-import YoutubeIcon from "@/src/images/youtube.svg";
-import TtIcon from "@/src/images/tt.svg";
-import WhatsIcon from "@/src/images/whatsapp.svg";
-import VkIcon from "@/src/images/vk.svg";
+import EmailIcon from "@/src/images/footer-icons/mail.svg";
+import TgIcon from "@/src/images/footer-icons/tg.svg";
+import InstaIcon from "@/src/images/footer-icons/insta.svg";
+import YoutubeIcon from "@/src/images/footer-icons/youtube.svg";
+import TtIcon from "@/src/images/footer-icons/tt.svg";
+import WhatsIcon from "@/src/images/footer-icons/whatsapp.svg";
+import VkIcon from "@/src/images/footer-icons/vk.svg";
 
 const itemsIconData = [
     {
